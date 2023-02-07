@@ -1,6 +1,8 @@
 import os
 import fnmatch
 
+__all__ = ['FileSystemIterator']
+
 #class definition
 class FileSystemIterator:
 	def __init__(self, root, only_files=False, only_dirs=False, pattern=None):
